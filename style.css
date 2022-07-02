@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #DDD;
+    width: 100%
+}
+
+table th, table td{
+    border-bottom: 1px solid #DDD;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+table tr td:nth-child(2){
+    text-align: left;
+}
+
+.libertadores {
+    color: #003366;
+}
+
+.pre-libertadores {
+   color: #1398BE; 
+}
+.sul-americana{
+    color: #de9800;
+}
+.rebaixados{
+    color: #C91B04;
+}
+
+table td .nome-clube {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+
+}
+
+.pontos,{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background: 
+}
+
+.background {
+    background: #f7f7f7;
+}
+
+.linha {
+    border-bottom: 2px solid #ccc;
+}
+
+
+section {
+    font-size: 7pt;
+    color: #8F8F8F;
+    text-transform: uppercase;
+
+    padding: 3px;
+    border: 1px solid #DDD;
+}
+
+.sqr-libertadores {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #003366;
+}
+
+.sqr-pre-libertadores {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #1398BE;
+}
+
+.sqr-sul-americana {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #de9800;
+}
+
+.sqr-rebaixados {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #C91B04;
+}
